@@ -1,0 +1,26 @@
+.navbar-brand {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(assets/LightBackground.jpg);
+}
+
+.container {
+    margin: 25px;
+}
+
+.col-md-8 {
+    background-color: #CBD3D9;
+    padding: 20px;
+}
+
+.col-md-4 {
+    padding: 15px;
+}
+
+.rounded {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
