@@ -8,16 +8,14 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/custom.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
 
     <title>Banu Akman's Portfolio</title>
   </head>
-
   <body>
 
     <header>
         <!-- Navbar-->
-        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
             <div class="container-fluid">
@@ -32,10 +30,10 @@
                             <a class="nav-link" href="index.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                     </ul>
                 </div>
@@ -47,36 +45,32 @@
     </header>
 
     <!-- Main Body goes in Container -->
+    <section class="container">
+     <div class=row>
+        <div class="col-md-8">
 
-    <div class="container">
-        <div class=row>
-            <div class="col-md-8">
-             <h1>Portfolio</h1>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/pictures/p6_KMBTC.jpg" class="img-thumbnail" alt="...">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/pictures/p3_BridgeEngineeringA.jpg" class="img-thumbnail" alt="...">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/pictures/p5_MadebyHand.jpg" class="img-thumbnail" alt="...">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/pictures/p4_Selma.jpg" class="img-thumbnail" alt="...">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/pictures/p2_JennGibbons.jpg" class="img-thumbnail" alt="...">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/pictures/p1_AnchorYourLegacy.jpg" class="img-thumbnail" alt="...">
-                    </div>
-                </div>
+            <h1>Contact</h1>
+
+    <!-- Contact Form Added -->
+         <form>
+            <div class="mb-3">
+                <label for="InputName" class="form-label">Name</label>
+                <input type="email" class="form-control" id="InputName" aria-describedby="emailHelp">
+              </div>
+            <div class="mb-3">
+              <label for="InputEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
             </div>
+            <div class="mb-3">
+                <label for="FormTextArea" class="form-label">Your Message</label>
+                <textarea class="form-control" id="FormTextArea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
         </div>
-    </div>
+     </div>
+    </section>
 
     <!-- JavaScript -->
  
